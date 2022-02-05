@@ -1,0 +1,21 @@
+.filtr-button {
+  display: flex;
+
+  margin-bottom: 50px;
+  @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+  }
+  @media screen and(min-width:768px) {
+    justify-content: center;
+  }
+}
+.filtr-button__item {
+  @media screen and (max-width: 767px) {
+    &:not(:nth-child(n + 4)) {
+      margin-bottom: 15px;
+    }
+  }
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}

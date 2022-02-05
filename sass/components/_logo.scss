@@ -1,0 +1,18 @@
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo__web {
+  color: var(--hightlight-color);
+}
+.footer__logo {
+  color: var(--prirmary-backrgaund-color);
+  margin-bottom: 20px;
+  @media screen and(max-width: 768px) {
+    text-align: center;
+  }
+}
