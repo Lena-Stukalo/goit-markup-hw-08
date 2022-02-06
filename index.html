@@ -131,15 +131,27 @@
                 <h2 class="section__title">Чем мы занимаемся</h2>
                 <ul class="our-work__list">
                     <li class="our-work__item">
-                        <img src="./images/what_we_do1.jpg" alt="Виполняемые задачи" width="370">
+                        <img srcset="
+                                        ./images/what_we_do1.jpg 1x,
+                                        ./images/what_we_do1-2x.jpg 2x
+                                    " 
+                        src="./images/what_we_do1.jpg" alt="Виполняемые задачи" width="370">
                         <p class="our-work__text">Десктопные приложения</p>
                     </li>
                     <li class="our-work__item">
-                        <img src="./images/what_we_do2.jpg" alt="Виполняемые задачи" width="370">
+                        <img srcset="
+                                        ./images/what_we_do2.jpg 1x,
+                                        ./images/what_we_do2-2x.jpg 2x
+                                    "
+                        src="./images/what_we_do2.jpg" alt="Виполняемые задачи" width="370">
                         <p class="our-work__text">Мобильные приложения</p>
                     </li>
                     <li class="our-work__item">
-                        <img src="./images/what_we_do3.jpg" alt="Виполняемые задачи" width="370">
+                        <img srcset="
+                                        ./images/what_we_do3.jpg 1x,
+                                        ./images/what_we_do3-2x.jpg 2x
+                                    "
+                        src="./images/what_we_do3.jpg" alt="Виполняемые задачи" width="370">
                         <p class="our-work__text">Дизайнерские решения</p>
                     </li>
                 </ul>
@@ -150,7 +162,22 @@
                     <h2 class="section__title">Наша команда</h2>
                     <ul class="our-team__list" >
                         <li class="our-team__item">
-                            <img src="./images/team_plaer-tel-1x.jpg" alt="Фото работника компании " class="our-team__img" >
+                            <picture>
+                                <source srcset="
+                                                ./images/team_plaer1.jpg 1x,
+                                                ./images/team_plaer-desk-2x.jpg 2x
+                                              " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                ./images/team_plaer-tab-1x.jpg 1x,
+                                                ./images/team_plaer-tab-2x.jpg 2x
+                                              " media="(min-width: 768px)" />
+                                <source srcset="
+                                                ./images/team_plaer-tel-1x.jpg 1x,
+                                                ./images/team_plaer-tel-2x.jpg 2x
+                                              " media="(min-width: 320px)" />
+                            
+                                <img src="./images/team_plaer1.jpg" alt="Фото работника компании ">
+                            </picture>
                             <h3 class="our-team__title">Игорь Демьяненко</h3>
                             <p class="our-team__text">Product Designer</p>
                             <ul class="social">
@@ -193,7 +220,22 @@
                             </ul>
                         </li>
                         <li class="our-team__item">
-                            <img src="./images/team_plaer2-tel-1x.jpg" alt="Фото работника компании" class="our-team__img">
+                            <picture>
+                                <source srcset="
+                                                ./images/team_plaer2.jpg 1x,
+                                                ./images/team_plaer2-desk-2x.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                ./images/team_plaer2-tab-1x.jpg 1x,
+                                                ./images/team_plaer2-tab-2x.jpg 2x
+                                                " media="(min-width: 768px)" />
+                                <source srcset="
+                                                ./images/team_plaer2-tel-1x.jpg 1x,
+                                                ./images/team_plaer2-tel-2x.jpg 2x
+                                                " media="(min-width: 320px)" />
+                            
+                                <img src="./images/team_plaer2.jpg" alt="Фото работника компании ">
+                            </picture>
                             <h3 class="our-team__title">Ольга Репина</h3>
                             <p class="our-team__text">Frontend Developer</p>
                             <ul class="social">
@@ -236,7 +278,22 @@
                             </ul>
                         </li>
                         <li class="our-team__item">
-                            <img src="./images/team_plaer3-tel-1x.jpg" alt="Фото работника компании" class="our-team__img">
+                            <picture>
+                                <source srcset="
+                                                    ./images/team_plaer3.jpg 1x,
+                                                    ./images/team_plaer3-desk-2x.jpg 2x
+                                                    " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                    ./images/team_plaer3-tab-1x.jpg 1x,
+                                                    ./images/team_plaer3-tab-2x.jpg 2x
+                                                    " media="(min-width: 768px)" />
+                                <source srcset="
+                                                    ./images/team_plaer3-tel-1x.jpg 1x,
+                                                    ./images/team_plaer3-tel-2x.jpg 2x
+                                                    " media="(min-width: 320px)" />
+                            
+                                <img src="./images/team_plaer3.jpg" alt="Фото работника компании ">
+                            </picture>
                             <h3 class="our-team__title">Николай Тарасов</h3>
                             <p class="our-team__text">Marketing</p>
                             <ul class="social">
@@ -279,7 +336,22 @@
                             </ul>
                         </li>
                         <li class="our-team__item">
-                            <img src="./images/team_plaer4-tel-1x.jpg" alt="Фото работника компании" class="our-team__img">
+                            <picture>
+                                <source srcset="
+                                                ./images/team_plaer4.jpg 1x,
+                                                ./images/team_plaer4-desk-2x.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                ./images/team_plaer4-tab-1x.jpg 1x,
+                                                ./images/team_plaer4-tab-2x.jpg 2x
+                                                " media="(min-width: 768px)" />
+                                <source srcset="
+                                                ./images/team_plaer4-tel-1x.jpg 1x,
+                                                ./images/team_plaer4-tel-2x.jpg 2x
+                                                " media="(min-width: 320px)" />
+                            
+                                <img src="./images/team_plaer4.jpg" alt="Фото работника компании ">
+                            </picture>
                             <h3 class="our-team__title">Михаил Ермаков</h3>
                             <p class="our-team__text">UI Designer</p>
                             <ul class="social">
