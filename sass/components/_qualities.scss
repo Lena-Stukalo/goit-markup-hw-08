@@ -12,6 +12,10 @@
     margin: 15px;
     width: calc((100% - 2 * 30px) / 2);
   }
+  @media screen and(min-width:1200px) {
+    margin: 15px;
+    width: calc((100% - 4 * 30px) / 4);
+  }
 }
 
 .qualities__svg {

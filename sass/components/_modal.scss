@@ -7,7 +7,7 @@
   background: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: scroll;
+  overflow-y: scroll;
   @media screen and (min-width: 768px) {
     padding-top: 208;
   }
@@ -28,9 +28,17 @@
 
   @media screen and (min-width: 768px) {
     width: 450px;
-    top: 208px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
+    overflow-y: scroll;
+  }
+  @media (orientation: landscape) {
+    top: 250px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
   }
 }
 .modal__button__close {
