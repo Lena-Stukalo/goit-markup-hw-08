@@ -20,9 +20,13 @@ footer {
 }
 .footer-links {
   @media screen and (min-width: 768px) {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
   }
 }
 .footer__adress {
@@ -60,6 +64,9 @@ footer {
   text-align: center;
   @media screen and(max-width: 768px) {
     margin-top: 60px;
+  }
+  @media screen and(min-width: 1200px) {
+    text-align: start;
   }
 }
 .footer__social {
@@ -103,7 +110,7 @@ footer {
   border-radius: 4px;
   padding: 15px 16px;
 
-  @media screen and(max-width:767px) {
+  @media screen and(max-width:1199px) {
     margin-bottom: 20px;
   }
 
