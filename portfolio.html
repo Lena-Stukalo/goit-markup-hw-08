@@ -25,20 +25,20 @@
                 </div>
         
                 <div class="menu is-hidden-menu" data-menu>
-                    <button type="button" class="menu__button" data-menu-close>
+                    <button type="button" class="menu__button menu__button-close" data-menu-close>
                         <svg class="menu__svg" width="40px" height="40px">
                             <use href="./images/icons-svg.svg#icon-menu-close"></use>
                         </svg>
                     </button>
                     <script src="./js/menu.js"></script>
-                    <nav class="pages">
+                    <nav class="pages menu-conteiner">
                         <ul class="site-nav list">
                             <li class="site-nav-item"><a href="./index.html" class="site-nav__link ">Студия</a></li>
                             <li class="site-nav-item"><a href="./portfolio.html" class="site-nav__link cureent">Портфолио</a></li>
                             <li class="site-nav-item"><a href="" class="site-nav__link ">Контакты</a></li>
                         </ul>
                     </nav>
-                    <ul class="contact">
+                    <ul class="contact menu-conteiner">
         
                         <li class="contact-item"><a href="tel:+380961111111" class="contact__link tel">
                                 <svg class="contact__svg" width=10px height=16px>
@@ -47,7 +47,7 @@
                                 <span> +38 096 111 11 11</span>
                             </a>
                         </li>
-                        <li class="contact-item">
+                        <li class="contact-item ">
         
                             <a href="mailto:info@devstudio.com" class="contact__link mail">
                                 <svg class="contact__svg" width=16px height=12px>
@@ -57,7 +57,7 @@
                             </a>
                         </li>
                     </ul>
-                    <ul class="menu-social">
+                    <ul class="menu-social menu-conteiner">
                         <li class="menu-social__item">
                             <a href="" class="menu-social__link">Instagram</a>
                         </li>
@@ -75,8 +75,8 @@
             </div>
         </header>
     <main>
-        <section class="project section conteiner">
-            <div>
+        <section class="project section ">
+            <div class="conteiner">
                 <h1 class="visually-hidden">Наши проекты</h1>
                 <ul class="list filtr-button">
                     <li class="filtr-button__item"><button type="button" class="primary-button">Все</button></li>
